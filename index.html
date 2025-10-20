@@ -11,11 +11,12 @@
     <!-- Menú de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Mi Sitio Web</a>
+            <a class="navbar-brand" href="index.html">Mi Sitio Web</a>
             <div class="navbar-nav">
-                <a class="nav-link" href="#">pagina 1</a>
-                <a class="nav-link" href="#">pagina 2</a>
-                <a class="nav-link" href="#">pagina 3</a>
+                <a class="nav-link active" href="index.html">Inicio</a> <!-- Marcado como activo -->
+                <a class="nav-link" href="pagina1.html">Galería de fotos</a>
+                <a class="nav-link" href="pagina2.html">Blog personal</a>
+                <a class="nav-link" href="pagina3.html">Portafolio de proyectos</a>
             </div>
         </div>
     </nav>
@@ -28,8 +29,6 @@
         <!-- Imagen -->
         <div class="text-center mb-4">
             <img src="img/descarga.jpg" alt="Imagen principal" class="img-fluid rounded shadow">
-                 alt="Imagen principal" 
-                 class="img-fluid rounded shadow">
         </div>
         
         <!-- Texto adicional -->
@@ -37,6 +36,37 @@
             Esta es la página principal de mi proyecto para la Actividad Fundamental 6.
             Aquí puedes navegar a las diferentes secciones del sitio.
         </p>
+
+        <!-- Sección de enlaces rápidos -->
+        <div class="row mt-5 justify-content-center">
+            <div class="col-md-4 mb-3">
+                <div class="card text-center h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Galería de Fotos</h5>
+                        <p class="card-text">Explora una colección de imágenes cuidadosamente seleccionadas.</p>
+                        <a href="pagina1.html" class="btn btn-outline-success mt-auto">Ver Galería</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Blog Personal</h5>
+                        <p class="card-text">Lee mis reflexiones, reseñas y experiencias diarias.</p>
+                        <a href="pagina2.html" class="btn btn-outline-primary mt-auto">Ir al Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card text-center h-100">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Portafolio de Proyectos</h5>
+                        <p class="card-text">Descubre mis trabajos y proyectos más destacados.</p>
+                        <a href="pagina3.html" class="btn btn-outline-info mt-auto">Ver Proyectos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Bootstrap JS -->
